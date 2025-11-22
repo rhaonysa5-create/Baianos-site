@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #fff;
+}
+
+/* HEADER */
+.header {
+    height: 260px;
+    background: url("img/header.jpg") center/cover no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    top: 0;
+    left: 0;
+}
+
+.title {
+    position: relative;
+    font-size: 50px;
+    text-shadow: 0 0 15px black;
+}
+
+/* BOTÕES */
+.main-actions {
+    text-align: center;
+    padding: 20px;
+}
+
+.btn {
+    background: #2ecc71;
+    padding: 12px 25px;
+    border: none;
+    margin: 10px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* INFORMAÇÕES */
+.info {
+    padding: 20px;
+}
+
+.card {
+    background: #222;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 4px solid #2ecc71;
+}
+
+/* GALERIA */
+.gallery {
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+.grid img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* RODAPÉ */
+.footer {
+    background: #000;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
